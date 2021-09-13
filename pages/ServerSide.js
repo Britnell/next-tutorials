@@ -4,7 +4,6 @@ import Page from "../lib/page"
 const dadJoke = 'https://icanhazdadjoke.com/'
 
 export async function getServerSideProps({ params }) {
-  console.log('secret',process.env.SECRET)
 
     // Server side, fetch API / data whatever
     let resp = await fetch(dadJoke,{
