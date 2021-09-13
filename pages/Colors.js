@@ -11,7 +11,7 @@ export default function Colors(){
                 <p>pre-rendered static pages from list / obj data </p>
             </div>
             {colors.map((obj,i)=> (
-                <Link key={i} href={`/color/${obj.name}`}>
+                <Link key={i} href={`/color/${obj.name}`} passHref>
                     <div>{obj.name}</div>
                 </Link>
             ) )}
