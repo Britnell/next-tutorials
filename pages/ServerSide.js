@@ -19,7 +19,7 @@ export async function getServerSideProps({ params }) {
     console.log('secret is ',process.env.SECRET)
 
     const {joke} = props
-    console.log(' front-side ', props )
+    // console.log(' front-side : props ', props )
     
     return (
       <Page>
