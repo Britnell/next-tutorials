@@ -11,7 +11,9 @@ export default function Env(){
         fetch('/api/secret')
             .then(res=>res.json())
             .then(json=> setSecret(json.secret))
-            .catch(err=> console.log(' ERR fetching /secret '))
+            .catch(err=> {
+                console.log(err);    setSecret('ERROR');
+            })
 
     },[])
     return (
