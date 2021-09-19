@@ -6,7 +6,9 @@ import Page from "../lib/page"
 import useUser from "../lib/useUser";
 
 const Profile = ()=>{
-    const {user,isLoading} = useUser({ logoutRedirect: '/login'})
+    const {user,isLoading} = useUser({ 
+        // logoutRedirect: '/login'
+    })
 
     // console.log(user)
 

@@ -8,7 +8,7 @@ import useUser from "../lib/useUser";
 
 const Login = () => {
     useUser({
-        loginRedirect: '/profile',
+        // loginRedirect: '/profile',
     })
 
     const formsubmit = async (ev)=>{
