@@ -6,7 +6,13 @@ export default function Grid(){
 
     return (
         <Page>
-            <div className={styles.gridcontainer}>
+        <div style={{
+            height: '100%',
+            display: 'grid',
+            gridGap: '6px',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gridTemplateRows: 'repeat(3, 1fr)',
+        }}>
                 <div style={{
                     gridArea: 'gridheader',
                     gridRow: '1',gridColumn: '1 / 4',

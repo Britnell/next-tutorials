@@ -1,0 +1,27 @@
+
+
+.p {
+    overflow-wrap: normal;
+    margin: 4px;
+
+}
+
+.scrollable {
+    height: 200px;
+    /* overflow-x: hidden; */
+    overflow-y: auto;
+
+    background-color: rgb(145, 145, 231);
+    padding: 18px 12px;
+    border: 2px solid rgb(58, 58, 134);
+}
+
+.stickytitle {
+    position: sticky;
+    top: 0;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+/* --- */
