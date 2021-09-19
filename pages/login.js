@@ -22,7 +22,6 @@ const Login = () => {
                 body: JSON.stringify(body),
             })
             .then((data)=>{
-                console.log(' login: ',data)
                 Router.push('/profile')
             })
           } catch (error) {

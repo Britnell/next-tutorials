@@ -23,5 +23,28 @@
     font-size: 3rem;
 }
 
+.section {
+    margin:  6px;
+    padding: 6px;
+    background-color: rgb(165, 165, 165);
+}
+
+    .stickycaption {
+        position: sticky;
+        top: 0;
+
+        font-weight: 500;   font-size: 1.2rem;  
+        z-index: 10; 
+        color: #fff;
+        
+        text-align: center;
+        padding: 6px 0;
+        /* border: 2px solid #fff; */
+        background-color: #000;
+    }
+
+    /*  */
+
+
 
 /* --- */
