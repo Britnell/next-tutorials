@@ -4,16 +4,27 @@ export default function tailwind(){
 
     
     return (<Page>
-        <div className="sd:container sd:mx-auto w-25  " >
+        <div className="w-full flex flex-col justify-evenly h-1/2 " >
 
-            <p className="text-center font-bold" >LORem Ipsum dolor quantom domet donor kebab</p>
-            <button className="bg-green-300 border-green-800 border-b-2 border-r-1 rounded-md px-4 py-2 m-4 hover:shadow-md " >Go Green</button>
-            <input type="text" placeholder="name" className="focus:ring border-2 text-gray-700 rounded-md " ></input>
+            <p className="text-lg font-bold" >LORem Ipsum dolor quantom domet donor kebab</p>
 
-            <div className="p-3 w-20 " >Tailwind</div>
-            <div className="p-3 w-20" >Example</div>
-            <div className="p-3 w-20 " >Tailwind</div>
-            <div className="p-3 w-20" >Example</div>
+            <div className="w-full flex justify-center " >
+                <div className="bg-gray-300 rounded px-6 py-4 " >flex centered</div>
+            </div>
+
+            <div>
+                <div className="bg-green-500 rounded p-2 w-1/2 mx-auto text-center" >margin centered</div>
+            </div>
+
+            <div className="container flex items-center justify-evenly " >
+                <label>Flex input row</label>
+                <input type="text" placeholder="name" className="focus:ring border-2 text-gray-700 rounded-md " ></input>
+                <button className="bg-green-300 border-green-800 border-b-2 border-r-1 rounded-md px-4 py-2 m-4 hover:shadow-md " >Go Green</button>
+            </div>
+            
+            <div>
+
+            </div>
 
         </div>
 
